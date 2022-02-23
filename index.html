@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/responsive.css">
+  <link rel="icon" href="/img/netflix-icon.png" type="image/x-icon">
+
+  <!-- Owl css -->
+  <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+  <title>Netflix</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- <h2 class="logo">NETFLIX</h2> -->
+      <a href="index.html" class="logo"><img src="img/netflix.png" height="35px" width="150px"></a>
+      <nav>
+        <a href="#">Início</a>
+        <a href="#">Séries</a>
+        <a href="#">Filmes</a>
+        <a href="#">Documentários</a>
+      </nav>
+    </div>
+  </header>
+  <div class="modal">
+    <div onclick="fechar()" class="fechar"><i class="fa-solid fa-xmark"></i></div>
+  </div>
+  <main>
+    <div class="filme-principal">
+      <div class="container">
+        <h2 class="titulo">2012</h2>
+        <p class="descricao">Bilhões de habitantes da Terra não estão cientes de que o planeta tem uma data de expiração. Com os avisos de um cientista norte-americano, os líderes mundiais começam os preparativos secretos para a sobrevivência de alguns membros da sociedade. Quando o cataclisma global finalmente ocorre, o fracassado escritor Jackson Curtis tenta levar sua família para um lugar seguro quando o mundo começa a desmoronar.</p>
+        <div class="botoes">
+          <a target="_blank" href="https://www.adorocinema.com/filmes/filme-134539/">
+            <button role="button" class="botao"><i class="fa-solid fa-play"></i>ASSISTIR AGORA</button>
+          </a>
+        <button role="button" class="botao" onclick="popup()"><i class="fa-solid fa-circle-info"></i>MAIS INFORMAÇÕES</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div class="carrosel-filmes">
+    <div class="owl-carousel owl-theme">
+      <a href="https://www.themoviedb.org/movie/200085?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min1.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/tv/1416-grey-s-anatomy?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min2.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/movie/696348-pandemia?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min3.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/movie/687016-pandemic-covid-19?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min4.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/movie/854-the-mask?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min5.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/tv/99966?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min6.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/movie/336843-the-maze-runner-the-death-cure?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min7.jpg" alt=""></div>
+      </a>
+      <a href="https://www.themoviedb.org/movie/258152-party-central?language=pt-BR" target="_blank">
+        <div class="item box-filme"><img src="img/min8.jpg" alt=""></div>
+      </a>
+      <div class="item box-filme"><img src="img/min9.jpg" alt=""></div>
+      <div class="item box-filme"><img src="img/min10.jpg" alt=""></div>
+      <div class="item box-filme"><img src="img/min11.jpg" alt=""></div>
+      <div class="item box-filme"><img src="img/min12.jpg" alt=""></div>
+
+  </div>
+  </div>
+  
+
+
+  <script src="https://kit.fontawesome.com/52eaed741f.js" crossorigin="anonymous"></script>
+  <script src="js/owl/jquery.min.js"></script>
+  <script src="js/owl/owl.carousel.min.js"></script>
+  <script src="js/owl/main.js"></script>
+  <script src="js/popup.js"></script>
+
+</body>
+</html>
